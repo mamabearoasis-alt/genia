@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '../lib/supabase';
 
-const BUCKET_NAME = 'portfolio-media';
+const BUCKET_NAME = 'project-media';
 const CACHE_KEY = 'portfolio_urls_cache';
 const CACHE_EXPIRY = 60 * 60 * 1000; // 1 hora
 
