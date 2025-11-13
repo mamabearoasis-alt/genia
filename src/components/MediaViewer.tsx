@@ -37,7 +37,7 @@ export const MediaViewer = ({ isOpen, onClose, src, type, title }: MediaViewerPr
         onClick={onClose}
       ></div>
 
-      <div className="relative z-10 w-full max-w-4xl max-h-[90vh] bg-gray-900 rounded-2xl overflow-hidden shadow-2xl animate-[fadeIn_0.3s_ease-out]">
+      <div className="relative z-10 w-full max-w-4xl max-h-[90vh] bg-gray-900 rounded-2xl overflow-hidden shadow-2xl animate-fadeIn-fast">
         <button
           onClick={onClose}
           className="absolute top-4 right-4 z-20 p-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors duration-300 backdrop-blur-sm"

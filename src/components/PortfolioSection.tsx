@@ -16,7 +16,7 @@ interface PortfolioItemComponentProps {
 }
 
 const PortfolioItemComponent = ({ item, onSelect }: PortfolioItemComponentProps) => {
-  const { url, loading } = usePortfolioMedia(item.fileName);
+  const { url } = usePortfolioMedia(item.fileName);
 
   if (!url) {
     return (
